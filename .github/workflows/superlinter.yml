@@ -1,0 +1,14 @@
+name: Example Workflow
+
+# When to run the workflow
+on:
+  push:
+    branches:
+      - main  # or whichever branch you want
+
+jobs:
+  test:
+    runs-on: ubuntu-latest  # the OS runner to use
+    steps:
+      - name: 22f2000237@ds.study.iitm.ac.in
+        run: echo "Hello, world!"
